@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="d1">
+<p id="p1">Accede a tu Área Clientes</p>
+
+<p>Elige tu documento</p>
+<p><input type="radio" id="r1" name="hm" value="DNI">DNI o Tarjeta de residencia</p>
+<p><input type="radio" name="hm" value="p">Pasaporte</p>
+<p>Número de documento <input maxlength="9" minlength="9" id="dni" placeholder="DNI o Tarjeta de residencia" type="text" name="n" size="20"></p>
+<div id="div4">
+<p>Fecha de nacimiento <input id="f1" type="date" name="f"></p>
+</div>
+<p><input type="checkbox" name="casilla">   Recordar <img id="interrogante" src="img/interrogante.png" width="18px" height="18px"></img></p>
+
+<p><button type="submit" id="b1">Entrar</button></p>
+<a class="a1" href=""><img src="img/Flecha.png" width="16px" height="16px">Acceder con DNI electrónico</img></a>
+<p><a class="a1" href=""><img src="img/Flecha.png" width="16px" height="16px">Más información sobre seguridad</img></a></p>
+</div>
+
+<br></br>
+<hr></hr>
+<br></br>
+
+<div>
+<p id="p2">Empieza creando tu usuario</p>
+
+<p><input id="nombre" placeholder="Nombre(como sale en el DNI)" type="text" name="n" size="20"></p>
+
+<span><input class="apellido1" placeholder="1º apellido (como sale en el DNI)" type="text" name="n" size="20"></span>
+<span><input class="apellido1" placeholder="2º apellido (como sale en el DNI)" type="text" name="n" size="20"></span>
+<br></br>
+<p id="pspecial">TIPO DE DOCUMENTO</p>
+<span><select id="s1" name="menu">
+
+  <option><p>DNI</p></option>
+  <option value="2">Manual</option>
+  <option value="three">Digital</option>
+</select></span>
+<span><input class="apellido1" minlength="9" maxlength="9" placeholder="Número de documento" type="text" name="n" size="20"></span>
+
+<br></br>
+<span><select id="s2" name="menu">
+
+  <option><p>Españita</p></option>
+  <option value="2">Inglaterra</option>
+  <option value="three">Japón</option>
+</select></span>
+<span>
+<input class="apellido1" placeholder="2º apellido (como sale en el DNI)" type="text" name="n" size="20">
+</span>
+</div>
+
+<br></br>
+<hr></hr>
+<br></br>
+
+<div class="div1">
+<div  id="div2">
+<p id="p3">¿Eres nuevo?</p>
+<p>Regístrate para guardar tu información y hacer tus pedidos de forma más fácil y rápida</p>
+</div>
+<br></br>
+<p>Email</p> <input class="t2" placeholder="Introduce tu email" type="text" name="n" size="20">
+<p>Teléfono</p> <input minlength="9" maxlength="9" class="t2" placeholder="Tu teléfono" type="text" name="n" size="20">
+<p>Contraseña</p> <input class="t2" placeholder="Introduce tu contraseña" type="password" name="n" size="20"><img id="eye-in-the-sky1" src="img/eye.png" width="40px" height="30px"></img>
+<p>Confirma tu Contraseña</p> <input class="t2" placeholder="Introduce tu contraseña" type="password" name="n" size="20"><img id="eye-in-the-sky2" src="img/eye.png" width="40px" height="30px"></img>
+
+<p><input type="checkbox" name="casilla">  He leído y acepto la <a href="" id="a2">Pólitica de privacidad</a></p>
+<div id="div3">
+<p><input type="checkbox" name="casilla">  Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil</p>
+</div>
+
+<p><button type="submit" id="b2">Crea tu cuenta</button></p>
+</div>
+</body>
+</html>
